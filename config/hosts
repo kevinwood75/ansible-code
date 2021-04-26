@@ -1,0 +1,13 @@
+[saltmaster]
+192.168.2.208
+
+[win]
+192.168.2.121
+
+
+[win:vars]
+ansible_user=kwood
+ansible_password=Jandrew0475
+ansible_connection=winrm
+ansible_port=5985
+ansible_winrm_server_cert_validation=ignore
